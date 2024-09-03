@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-euiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohith Kumar's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  </link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!----------------- Header --------------------------->
+  <header class="mainHeader ">
+    <!--------- Logo + Navigation Menu --------->
+    <nav class="light-dark">
+      <img id="portfolio-logo" src="assets/images/light-theme-logo.png" class="logo" />
+      <ul id="sidemenu">
+        <li><a href="#homePage">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <!-- <li><a href="#projects">Projects</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+        <li> <i title="Switch theme" id="light-dark-icon" class="fa-solid fa-moon"></i> </li>
+        <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-solid fa-bars" id="menuButton" onclick="openmenu()"></i>
+    </nav>
+  </header>
+  <!----------------------- Home Page ----------------------->
+  <section id="homePage" class="section-spacing">
+    <!-- <div class="reveal"> -->
+    <!---------- Introductory Text ---------->
+    <div class="intro-text">
+      <p>Full Stack Developer</p>
+      <h1>Hello, I'm <span>Rohith Kumar</span>&nbsp;Katta</h1>
+    </div>
+    <div class="display-flex-wrap">
+      <!--------- Profile Picture --------->
+      <div class="about-col-1">
+        <img title="Generated using Bing AI" src="assets/images/profile-picture B.png">
+      </div>
+      <!------------ Summary and Experiences ---------->
+      <div class="about-col-2">
+        <p class="bio">4+ Years in IT | MS CS @ UNT | Griet Alum | Ex-DXC Technology | Ex-ATOS</p>
+        <p class="bio"> Skilled in Python, Core Java, React and SpringBoot | Dedicated to integrating user needs with design for impactful and efficient solutions.
+          <!------------ Social ---------->
+        <div class="social-section">
+          <div class="social-row">
+            <i class="fa-solid fa-location-dot contrast-color"></i>
+            <p>Dallas-Frisco,TX</p>
+          </div>
+          <div class="social-row">
+            <a class="cv-button" href="https://drive.google.com/file/d/1q0V7AwshoCZoA23fh_K-cSjRFCk05gDY/view?usp=sharing" target="_blank">See Resume</a>
+            <p>or</p>
+            <p>Connect on &nbsp;&nbsp;</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/rohith-kumar-katta-12229118a/" title="LinkedIn" target="_blank"><i
+                  class="fab fa-linkedin-in linked-color"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+  <!----------------------- Education ------------------------->
+  <section id="education" class="section-spacing">
+    <div class="reveal">
+      <header class="section-title">Education</header>
+      <div class="details-section display-flex-center">
+        <div class="edu-col-1">
+          <div class="uni-card">
+            <a class="uni-logo" target="_blank" href="https://www.unt.edu/index.html">
+              <img src="assets/images/unt.png" max-height="100%" max-width="100%">
+            </a>
+            <div class="uni-details">
+              <div class="header">
+                <div class="display-flex-center">
+                  <a title="Visit Website" href="https://www.unt.edu/index.html" target="_blank">
+                    <h2>University of North Texas</h2>
+                  </a>
+                  <p>Jan 2023 - Dec 2024</p>
+                </div>
+                <div class="display-flex-center padbottom-5px">
+                  <p>Master of Science, Computer Science</p>
+                  <p>3.2 GPA</p>
+                </div>
+              </div>
+              <div class="uni-desc">
+                <p><span>Data Structures & Algorithms</span> <span>Fundamentals of AI</span> <span> Software development for AI</span> <span> Machine Learning</span> <span>Big Data & Data Science</span>
+                  <p><i class="fa-solid fa-star"></i> Generative AI Certified Professional and SQL by Oracle</p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="uni-card">
+            <a class="uni-logo" target="_blank" href="https://www.griet.ac.in/">
+              <img src="assets/images/griet.png" max-height="100%" max-width="100%">
+            </a>
+            <div class="uni-details">
+              <div class="header">
+                <div class="display-flex-center">
+                  <a title="Visit Website" href="https://jntuh.ac.in/" target="_blank">
+                    <h2>Gokaraju Rangaraju Institute of Engineering and Technology</h2>
+                  </a>
+                  <p>Jun 2016 - May 2019</p>
+                </div>
+                <div class="display-flex-center padbottom-5px">
+                  <p>Bachelor of Technology, Computer Science & Engineering</p>
+                  <p>3.7 GPA</p>
+                </div>
+              </div>
+              <div class="uni-desc">
+                <p><span>Operating Systems</span> <span>Java</span> <span>Web Technologies</span> <span>Design Patterns</span> <span>Computer Networks</span><span>Artificial Intelligence</span><span>Linux Shell Scripting</span></p>
+                <p>Member of Smart Interviews Coding Club, solved 100+ problems on coding platforms like LeetCode</p>
+                <p><i class="fa-solid fa-star"></i> 1st Runnerup in JNTUH Jlab's IOT HACKTHON conducted by JNTU Hyderbad</p>
+                <p><i class="fa-solid fa-star"></i> Showcased a IOT, Machine Learning and many Embedded Projects in Hackthons happened in Hyderabad between 2016-19</p>
+                <p><i class="fa-solid fa-star"></i> Certified in AZ900 by Azure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="edu-col-2">
+          <img title="Generated using Bing AI" src="assets/images/picture.png">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!----------------------- Experience ------------------------->
+  <section id="experience" class="section-spacing">
+    <div class="reveal">
+      <header class="section-title">Experience</header>
+      <div class="experience-timeline">
+        <div class="timeline-dot timeline-left">
+          <div class="timeline-content">
+            <div class="header display-flex-center">
+              <div class="company-info display-flex-center">
+                <a class="display-flex-center" title="Visit Website"
+                  href="https://dxc.com/in/en" target="_blank">
+                  <img src="assets/images/dxc.png" />
+                </a>
+                <a title="Visit Website" href="https://dxc.com/in/en" target="_blank">
+                  <h2>DXC Technology, India</h2>
+                </a>
+              </div>
+              <p>Jan 2022 - Dec 2022</p>
+            </div>
+            <div class="company-desc pad5px">
+              <p>ServiceNow Development:
+                Service Catalog Implementation: Successfully implemented the Service Catalog, creating and organizing multiple categories of catalog items and corresponding workflows. Demonstrated a strong understanding of ServiceNow modules, 
+                including Incident Management, Change Management, and Asset Management, to enhance the overall IT service management process.</p>
+              <p>UI/UX Development:
+                Toyo Tires Dealer Portal: Led the end-to-end User Interface design and development for the Toyo Tires project, focusing on creating 
+                intuitive and user-friendly dealer portals for warranty claims across the US and Canada. Single-handedly gathered requirements, designed 
+                the UI, and ensured seamless deployment, resulting in a significant improvement in dealer interaction and claims processing efficiency.</p>
+            </div>
+            <div class="role-icons">
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-java"></i>
+              <i class="fa-solid fa-database"></i>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-dot timeline-right">
+          <div class="timeline-content">
+            <div class="header display-flex-center">
+              <div class="company-info display-flex-center">
+                <a class="display-flex-center" title="Visit Website"
+                  href="https://atos.net/en/india" target="_blank">
+                  <img src="assets/images/atos.png" />
+                </a>
+                <a title="Visit Website" href="https://atos.net/en/india" target="_blank">
+                  <h2>Atos, India</h2>
+                </a>
+              </div>
+              <p>Oct 2019 - Dec 2021</p>
+            </div>
+            <div class="company-desc pad5px">
+              <p>Service Excellence Portal: Developed a portal providing sales, profit, and revenue insights for 105,000 Atos Syntel employees, supporting finance, HR, and project management.
+
+                COVID CARE Module: Created a module for global employee support during the pandemic, including vaccination registration, emergency blood requests, and insurance claims.
+                
+                Native Engine Chatbot Development: Implemented a Python-based chatbot with NLP, reducing support ticket volumes by 70% and enhancing user experience.
+                
+                App Gallery Website: Led the launch of a website showcasing in-house applications, improving visibility and access for users.
+                
+                Mobility & Authentication: Contributed to developing an Atos mobile app with SSO Biometric Authentication, enhancing security and user experience for 105,000 employees.</p>
+            </div>
+            <div class="role-icons">
+              <i class="fa-brands fa-java"></i>
+              <i class="fa-solid fa-database"></i>
+              <i class="fa-brands fa-angular"></i>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-dot timeline-left">
+          <div class="timeline-content">
+            <div class="header display-flex-center">
+              <div class="company-info display-flex-center">
+                <a class="display-flex-center" title="Visit Website" href="https://www.unt.edu/index.html"
+                  target="_blank">
+                  <img src="assets/images/unt.png" />
+                </a>
+                <a title="Visit Website" href="https://www.unt.edu/index.html" target="_blank">
+                  <h2>University of North Texas</h2>
+                </a>
+              </div>
+              <p>Aug 2023 - Present</p>
+            </div>
+            <div class="company-desc pad5px">
+              <p>Leveraged expertise in MySQL & Oracle database to support 120+ students in Fundamentals of Database
+                Systems, to master key concepts like ER Modelling, query design + optimization. </p>
+              <p>Used pedagogical techniques & Canvas Analytics to achieve a 92% student engagement index.</p>
+            </div>
+            <div class="role-icons">
+              <i class="fa-solid fa-database"></i>
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------- Projects ----------------------->
+  <!-- <section id="projects" class="section-spacing">
+    <div class="reveal">
+      <header class="section-title">Projects</header>
+    </div>
+  </section> -->
+  <!----------------------- Contact ------------------------->
+  <section id="contact" class="section-spacing">
+    <div class="reveal">
+      <header class="section-title">Contact Me</header>
+      <div class="display-flex details-section">
+        <!-- <div class="contact-left"> -->
+          <p><i class="fa-solid fa-envelope"></i> <a
+              href="mailto:.Rohith Kumar@gmail.com">9rkatta@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> +1 4848 990 990</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rohith-kumar-katta-12229118a/" title="LinkedIn" target="_blank"><i
+                class="fab fa-linkedin-in linked-color"></i></a>
+            <a href="https://github.com/rroyalrk" title="GitHub" target="_blank"><i
+                class="fab fa-github git-color"></i></a>
+            <a href="https://leetcode.com/u/user5419UZ/" title="LeetCode" target="_blank"><i
+                class="fab fa-codepen leetcode-color"></i></a>
+            <a class="cv-button" href="https://drive.google.com/file/d/1q0V7AwshoCZoA23fh_K-cSjRFCk05gDY/view?usp=sharing" target="_blank">See Resume</a>
+            <!-- </div> -->
+        </div>
+        <!-- <div class="contact-right">
+          <p class="boldFont">I'd love to hear from you</p> 
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="5" placeholder="Short Message for me"></textarea>
+            <button type="submit" class="send-button margin0"><i class="fa-solid fa-paper-plane"></i> Send</button>
+          </form>
+          <div id="toast" class="toast"></div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Light/Dark theme-->
+  <script>
+    var icon = document.getElementById("light-dark-icon");
+    var logo = document.getElementById("portfolio-logo");
+    icon.onclick = function () {
+      // window.alert("I was clicked");
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+        logo.src = "assets/images/dark-theme-logo.png"
+        icon.className = "fa-solid fa-sun";
+      } else {
+        logo.src = "assets/images/light-theme-logo.png"
+        icon.className = "fa-solid fa-moon";
+      }
+    }
+  </script>
+  <!-- Scroll to section behavior -->
+  <script>
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+      var reveals = document.querySelectorAll('.reveal');
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if (revealtop < windowheight - revealpoint) {
+          reveals[i].classList.add('active');
+        } else {
+          reveals[i].classList.remove('active');
+        }
+      }
+
+    }
+  </script>
+  <!-- Side menu handling in smaller screens -->
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    var menuButton = document.getElementById("menuButton");
+
+    function openmenu() {
+      isOpen = true;
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      isOpen = false;
+      sidemenu.style.right = "-200px";
+    }
+
+    document.addEventListener('click', function (event) {
+      // Check if the clicked element is not inside the sidemenu
+      if (!sidemenu.contains(event.target) && event.target !== menuButton) {
+        // Check if the sidemenu is open and if it's not the first time it's being opened
+        if (getComputedStyle(sidemenu).right == '0px' && isOpen) {
+          console.log('Clicked outside nav while open');
+          sidemenu.style.right = "-200px";
+        }
+      }
+    });
+
+  </script>
+  <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZXzGMrZ6WENxLr-M0z7iNrThCzaCS2Z15TomnE9lM-h4GXe6FVw2Vr3ASZmD6QpAS/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const toast = document.getElementById('toast');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          console.log('Success!', response)
+          toast.textContent = 'Form submitted!';
+          toast.classList.add('show');
+          setTimeout(function () {
+            toast.classList.remove('show');
+            form.reset();
+          }, 2000);
+        }).catch(error => {
+          console.error('Error!', error.message)
+          toast.textContent = 'Error while submitting!';
+          toast.classList.add('show');
+          setTimeout(function () {
+            toast.classList.remove('show');
+          }, 2000);
+        })
+    })
+  </script> -->
+</body>
+<footer>
+  <p>Thanks for stopping by! &copy; 2024 Rohith Kumar Katta</p>
+</footer>
+
+</html>
