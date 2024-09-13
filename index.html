@@ -26,7 +26,7 @@
         <li><a href="#homePage">Home</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
-        <!-- <li><a href="#projects">Projects</a></li> -->
+       <!-- <li><a href="#projects">Projects</a></li> -->
         <li><a href="#contact">Contact</a></li>
         <li> <i title="Switch theme" id="light-dark-icon" class="fa-solid fa-moon"></i> </li>
         <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
@@ -118,7 +118,7 @@
               <i class="fa-brands fa-js-square"></i>
               <span class="skill-label">TypeScript</span>
             </div>
-          </div>
+          </div><br>
           
           <!-- J2EE Technologies -->
           <h3 class="skills-category">J2EE</h3>
@@ -213,27 +213,7 @@
         </div>
 
         <!-- Second Row -->
-        <div class="skills-col">
-          <h3 class="skills-category">Databases</h3>
-          <div class="skills-list">
-            <div class="skill-item">
-              <i class="fa-solid fa-database"></i>
-              <span class="skill-label">SQL</span>
-            </div>
-            <div class="skill-item">
-              <i class="fa-solid fa-database"></i>
-              <span class="skill-label">MongoDB</span>
-            </div>
-            <div class="skill-item">
-              <i class="fa-solid fa-database"></i>
-              <span class="skill-label">PostgreSQL</span>
-            </div>
-            <div class="skill-item">
-              <i class="fa-solid fa-database"></i>
-              <span class="skill-label">MySQL</span>
-            </div>
-          </div>
-        </div>
+     
 
         <div class="skills-col">
           <h3 class="skills-category">Data Engineering</h3>
@@ -260,8 +240,27 @@
             </div>
           </div>
         </div>
-
         <div class="skills-col">
+          <h3 class="skills-category">Databases</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <i class="fa-solid fa-database"></i>
+              <span class="skill-label">SQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-database"></i>
+              <span class="skill-label">MongoDB</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-database"></i>
+              <span class="skill-label">PostgreSQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-database"></i>
+              <span class="skill-label">MySQL</span>
+            </div>
+          </div><br>
+
           <h3 class="skills-category">Certifications</h3>
           <div class="skills-list">
             <div class="skill-item">
@@ -376,46 +375,72 @@
 
   </section>
   <!----------------------- Experience ------------------------->
-  <section id="experience" class="section-spacing">
+  <section id="experience" class="section-spacing" style="font-size: small;">
     <div class="reveal">
-      <header class="section-title">Experience</header>
+      <header class="section-title">Experience & Projects</header>
       <div class="experience-timeline">
         <div class="timeline-dot timeline-left">
           <div class="timeline-content">
-            <div class="header display-flex-center">
-              <div class="company-info display-flex-center">
-                <a class="display-flex-center" title="Visit Website"
-                  href="https://dxc.com/in/en" target="_blank">
-                  <img src="assets/images/dxc.png" />
-                </a>
-                <a title="Visit Website" href="https://dxc.com/in/en" target="_blank">
-                  <h2>DXC Technology, India</h2>
-                </a>
-              </div>
-              <p>Jan 2022 - Dec 2022</p>
-            </div>
-            <div class="company-desc pad5px">
-              <p><strong>Associate Professional Application Developer </strong> </p>
-              <ul style="font-size: small;">
-                <li>Developed the entire frontend as a UI/UX developer, creating user-centric and responsive interfaces using React.js, HTML5, CSS3, and Bootstrap.</li>
-                <li>Integrated frontend with backend APIs, enhancing application responsiveness by 30% and ensuring seamless data flow.</li>
-                <li>Conducted user research, usability testing, and A/B testing, leading to a 25% increase in user engagement and a 20% improvement in satisfaction.</li>
-                <li>Utilized Redux for managing component state, maintaining consistent UI behavior, and streamlining debugging.</li>
-                <li>Collaborated with design and development teams to deliver high-quality UI designs, boosting team productivity by 15%.</li>
-                <li>Implemented advanced AWS Lambda enhancements, resulting in a 60% reduction in cold start times.</li>
-                <li>Architected and deployed a CI/CD pipeline, reducing deployment time by 30% through efficient integration tests and file parsing.</li>
-                <li>Integrated Java-based monitoring frameworks (Log4j, SLF4J) to track application behavior and troubleshoot issues effectively.</li>
-                <li>Conducted research on client services during peak times, developing a RADAR document that improved service efficiency by 20%.</li>
-              </ul>
-              
-          </div>
+           <section id="dxc-projects" class="section-spacing">
+  <!-- Header for DXC Technology -->
+  <div class="header display-flex-center">
+    <div class="company-info display-flex-center">
+      <a class="display-flex-center" title="Visit Website" href="https://dxc.com/in/en" target="_blank">
+        <img src="assets/images/dxc.png" alt="DXC Technology Logo"/>
+      </a>
+      <a title="Visit Website" href="https://dxc.com/in/en" target="_blank">
+        <h2>DXC Technology, India</h2>
+      </a>
+    </div>
+    <p>Jan 2022 - Dec 2022</p>
+  </div>
+
+  <!-- Project 1: Snowboarders -->
+  <section class="project-item">
+    <h2 class="sections-title">Snowboarders</h2>
+    <div class="project-details">
+      <div class="project-info">
+        <h3>Role: ServiceNow Developer</h3>
+        <p><strong>Description:</strong> Implemented a Service Catalog by creating multiple categories of catalog items and corresponding workflows. Gained in-depth knowledge of ServiceNow modules including Incident Management, Problem Management, Change Management, Asset Management, and Service Catalog.</p>
+        <p><strong>Impact:</strong> Enhanced the service delivery process by streamlining catalog item management and workflows, leading to improved efficiency in handling service requests.</p>
+        <p><strong>Challenges:</strong> Navigated complex ServiceNow configurations and integrated various workflows to ensure smooth operation across different modules.</p>
+        <p><strong>Achievements:</strong> Successfully developed and deployed a comprehensive Service Catalog, improving service management capabilities and user satisfaction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 2: Toyo Tires -->
+  <section class="project-item">
+    <h2 class="sections-title"">Toyo Tires</h2>
+    <div class="project-details">
+      <div class="project-info">
+        <h3>Role: Lead UI/UX Developer</h3>
+        <p><strong>Description:</strong> Led the development of a responsive and user-centric frontend for dealer portals using React.js, HTML5, CSS3, and Bootstrap. Ensured seamless integration with backend APIs for robust data exchange and application responsiveness.</p>
+        <p><strong>Technical Achievements:</strong></p>
+        <ul>
+          <li>Developed the frontend architecture utilizing React.js, enhancing the user experience with responsive and interactive interfaces.</li>
+          <li>Integrated RESTful APIs to enable efficient data retrieval and manipulation, achieving a 30% increase in application responsiveness.</li>
+          <li>Implemented state management using Redux, providing a predictable and maintainable state architecture and streamlining debugging processes.</li>
+          <li>Conducted comprehensive user research and A/B testing, resulting in a 25% increase in user engagement and a 20% improvement in user satisfaction.</li>
+          <li>Applied advanced AWS Lambda optimizations to reduce cold start times by 60%, improving backend performance and user experience.</li>
+          <li>Architected and deployed a CI/CD pipeline with Jenkins, significantly reducing deployment time by 30% through automated integration tests and file parsing.</li>
+          <li>Integrated Java-based monitoring frameworks, including Log4j and SLF4J, to track application behavior, enabling effective troubleshooting and performance monitoring.</li>
+          <li>Developed a RADAR document based on peak service research, which improved service efficiency by 20% and streamlined operational processes.</li>
+        </ul>
+        <p><strong>Impact:</strong> Enhanced dealer portal functionality, improving the efficiency of warranty claims processing for the US and Canada regions, and received positive feedback from stakeholders for its usability and performance.</p>
+        <p><strong>Challenges:</strong> Coordinated complex frontend and backend integrations across multiple regions and managed diverse stakeholder requirements to ensure project success.</p>
+        <p><strong>Achievements:</strong> Delivered a high-performing, user-focused dealer portal that significantly improved warranty claims processing and received acclaim for its innovative design and technical implementation.</p>
+      </div>
+    </div>
+  </section>
+</section>
+
           
           <div class="role-icons">
             <i class="fa-brands fa-react"></i>
             <i class="fa-brands fa-js"></i>
             <i class="fa-brands fa-java"></i>
             <i class="fa-solid fa-database"></i>
-            <i class="fa-brands fa-python"></i> <!-- For Python -->
             <i class="fa-brands fa-node-js"></i> <!-- For Node.js -->
             <i class="fa-brands fa-git"></i> <!-- For Git version control -->
             <i class="fa-brands fa-aws"></i> <!-- For AWS -->
@@ -423,8 +448,6 @@
             <i class="fa-solid fa-cogs"></i> <!-- For DevOps and CI/CD -->
             <i class="fa-brands fa-angular"></i> <!-- For Angular (if applicable) -->
             <i class="fa-solid fa-cloud"></i> <!-- For cloud technologies -->
-            <i class="fa-brands fa-jenkins"></i> <!-- For Jenkins (CI/CD) -->
-            <i class="fa-brands fa-docker"></i> <!-- For Docker (containerization) -->
             <i class="fa-brands fa-sap"></i>
           </div>
         
@@ -439,32 +462,129 @@
                   <img src="assets/images/atos.png" />
                 </a>
                 <a title="Visit Website" href="https://atos.net/en/india" target="_blank">
-                  <h2>Atos, India</h2>
+                  <h2>Atos | Syntel, India</h2>
                 </a>
               </div>
               <p>Oct 2019 - Dec 2021</p>
             </div>
-            <div class="company-desc pad5px">
-              <p><strong>Associate Consultant </strong></p>
-              <ul style="font-size: small;">
-                <li>Service Excellence Portal: Developed a portal to improve service delivery, using Java and Spring Boot for backend and React.js for a dynamic UI.</li>
-                
-                <li>App Gallery Website: Created a website to showcase applications, integrating Java backend services with a React.js frontend for a seamless experience.</li>
-                
-                <li>ARI Module for Delivery Directors: Built a module for delivery management, using Java for backend logic and React.js for an intuitive user interface.</li>
-                
-                <li>HR Connect Module: Developed an HR management module with Java backend and a React.js frontend to streamline HR processes.</li>
-                
-                <li>COVID CARE Module: Created a module for managing COVID-19 information, using Java and React.js for real-time updates and support.</li>
-                
-                <li>Native Engine Chatbot: Built a chatbot with Java backend, enhancing user support with a responsive, context-aware interface.</li>
-                
-                <li>Mobility (Atos | Syntel Mobile Applications): Contributed to mobile app development with Java backend services and React Native for cross-platform support.</li>
-                
-                <li>Syntbots (Atos | Syntel GSD Portal Assistant): Developed a virtual assistant using Java and React.js to improve user interactions in the GSD Portal.</li>
-              </ul>
+            <div class="project-item" >
+              <h2 class="sections-title"">Service Excellence Portal</h2>
+              <div class="project-details">
               
-          </div>
+                <div class="project-info">
+                  <h3>Role: Full-Stack Developer</h3>
+                  <p><strong>Description:</strong> Designed and developed a comprehensive Service Excellence Portal to enhance service delivery efficiency. The portal included features such as dynamic dashboards and real-time analytics, utilizing React.js for frontend and Java Spring Boot for backend.</p>
+                  <p><strong>Impact:</strong> Increased service delivery efficiency by 40%, leading to better resource management and faster response times.</p>
+                  <p><strong>Challenges:</strong> Managed the integration of complex backend systems with a dynamic frontend, ensuring smooth data flow and real-time updates.</p>
+                  <p><strong>Achievements:</strong> Praised by senior management for its role in enhancing service delivery operations, resulting in a 30% increase in user satisfaction.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 2: App Gallery Website -->
+            <div class="project-item">
+              <h2 class="sections-title">App Gallery Website</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: Full-Stack Developer</h3>
+                  <p><strong>Description:</strong> Developed an interactive App Gallery website to showcase various applications with features such as app descriptions, ratings, and download links. Implemented using Java Spring Boot for backend services and React.js for frontend.</p>
+                  <p><strong>Impact:</strong> Improved application visibility, leading to a 50% increase in downloads and user engagement.</p>
+                  <p><strong>Challenges:</strong> Ensured compatibility across different devices and browsers while managing complex data integration.</p>
+                  <p><strong>Achievements:</strong> Received positive feedback for the website's design and functionality, significantly increasing application downloads.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 3: ARI Module for Delivery Directors -->
+            <div class="project-item">
+              <h2 class="sections-title">ARI Module</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: Backend Developer</h3>
+                  <p><strong>Description:</strong> Developed the ARI Module to assist Delivery Directors with project management, using Java and Spring Boot for backend services. Focused on efficient data management and reporting functionalities.</p>
+                  <p><strong>Impact:</strong> Streamlined project management processes, resulting in a 25% reduction in project delivery times and improved resource utilization.</p>
+                  <p><strong>Challenges:</strong> Integrated multiple data sources to ensure accurate and real-time reporting while maintaining system performance.</p>
+                  <p><strong>Achievements:</strong> The module was recognized for its effectiveness in improving project oversight and management.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 4: HR Connect Module -->
+            <div class="project-item">
+              <h2 class="sections-title">HR Connect Module</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: UI Developer</h3>
+                  <p><strong>Description:</strong> Developed the HR Connect Module for managing employee records, leave, and payroll. Utilized Java for backend services and React.js for the frontend, ensuring a seamless user experience.</p>
+                  <p><strong>Impact:</strong> Reduced administrative workload by 35% and improved accuracy in payroll and leave management.</p>
+                  <p><strong>Challenges:</strong> Ensured data security and privacy compliance while implementing features for managing sensitive employee information.</p>
+                  <p><strong>Achievements:</strong> The module was well-received for its user-friendly interface and effective management of HR tasks.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 5: COVID CARE Module -->
+            <div class="project-item">
+              <h2 class="sections-title">COVID CARE Module</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: Full-Stack Developer</h3>
+                  <p><strong>Description:</strong> Created the COVID CARE Module to manage and disseminate COVID-19 related information. Built using Java for backend services and React.js for frontend, featuring real-time updates and comprehensive data management.</p>
+                  <p><strong>Impact:</strong> Provided a vital tool for public health management during the pandemic, enhancing information accessibility and management.</p>
+                  <p><strong>Challenges:</strong> Handled high traffic volumes and ensured accurate information dissemination while managing real-time data updates.</p>
+                  <p><strong>Achievements:</strong> Successfully supported pandemic response efforts, receiving positive feedback for its reliability and effectiveness.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 6: Native Engine Chatbot -->
+            <div class="project-item">
+              <h2 class="sections-title">Native Engine Chatbot</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: Backend Developer</h3>
+                  <p><strong>Description:</strong> Developed a context-aware chatbot to assist users with queries, utilizing Java for backend logic and integrating with various services to provide accurate responses.</p>
+                  <p><strong>Impact:</strong> Enhanced user support by offering instant, accurate responses, reducing human intervention and increasing customer satisfaction.</p>
+                  <p><strong>Challenges:</strong> Implemented natural language processing and context management for diverse query handling.</p>
+                  <p><strong>Achievements:</strong> The chatbot was effectively deployed and received high user satisfaction ratings.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 7: Mobility (Atos | Syntel Mobile Applications) -->
+            <div class="project-item">
+              <h2 class="sections-title">Mobility (Atos | Syntel Mobile Applications)</h2>
+              <div class="project-details">
+              
+                <div class="project-info">
+                  <h3>Role: Mobile App Developer</h3>
+                  <p><strong>Description:</strong> Contributed to the development of mobile applications for business needs, including order management and customer engagement. Used Java and Android SDK for development and testing.</p>
+                  <p><strong>Impact:</strong> Improved mobile user engagement and business processes, enhancing efficiency and customer satisfaction.</p>
+                  <p><strong>Challenges:</strong> Addressed performance and compatibility issues across various devices and Android versions.</p>
+                  <p><strong>Achievements:</strong> Delivered multiple successful mobile applications, receiving positive user feedback and improving client operations.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Project 8: Syntbots (Atos | Syntel GSD Portal Assistant) -->
+            <div class="project-item">
+              <h2 class="sections-title">Syntbots (Atos | Syntel GSD Portal Assistant)</h2>
+              <div class="project-details">
+                
+                <div class="project-info">
+                  <h3>Role: Full-Stack Developer</h3>
+                  <p><strong>Description:</strong> Developed a virtual assistant for the GSD Portal, providing users with quick access to information and support. Implemented using Java for backend and React.js for frontend.</p>
+                  <p><strong>Impact:</strong> Improved user interactions and reduced support queries by 15%, enhancing overall portal efficiency.</p>
+                  <p><strong>Challenges:</strong> Integrated various backend services to ensure timely and accurate responses to user queries.</p>
+                  <p><strong>Achievements:</strong> Successfully enhanced user experience and operational efficiency within the GSD Portal.</p>
+                </div>
+              </div>
+            </div>
           
           <div class="role-icons">
             <i class="fa-brands fa-java"></i> <!-- Java -->
@@ -502,9 +622,9 @@
               <p>Aug 2018</p>
             </div>
             <div class="company-desc pad5px">
-              <p><strong>Founder | Web and App Developer </strong> </p>
+              <p class="section-title"><strong>Founder | Web and App Developer </strong> </p>
 
-              <ul style="font-size: small;">
+              <ul>
                 <li><strong>Professional Job and Personal Portfolios:</strong> Created numerous professional job and personal portfolios, showcasing skills, experiences, and personal branding to help clients stand out in competitive markets.</li>
 
                 <li><strong>Website Development for Clients:</strong> Designed and developed websites for various clients, utilizing HTML, CSS, JavaScript, and frameworks like React.js for responsive and engaging user experiences.</li>
@@ -579,6 +699,8 @@
       <header class="section-title">Projects</header>
     </div>
   </section> -->
+
+  
   <!----------------------- Contact ------------------------->
   <section id="contact" class="section-spacing">
     <div class="reveal">
